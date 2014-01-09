@@ -1,5 +1,11 @@
-*.sdf
-*.opensdf
 
 
 /Debug
+/RELEASE
+
+*.ncb
+*.plg
+*.opt
+*.aps
+*.sdf
+*.opensdf
