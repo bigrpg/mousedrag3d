@@ -77,10 +77,13 @@ void CD3DArcBall::OnBegin( int nX, int nY )
 {
     // Only enter the drag state if the click falls
     // inside the click rectangle.
+
+#if 0
     if( nX >= m_Offset.x &&
         nX < m_Offset.x + m_nWidth &&
         nY >= m_Offset.y &&
         nY < m_Offset.y + m_nHeight )
+#endif
     {
         m_bDrag = true;
         m_qDown = m_qNow;
